@@ -1,6 +1,7 @@
 
 # Dev Tips 
-This collection was created by the [CodeTrend team](https://codetrend.ir/). You can click [here](https://codetrend.ir/) to see a sample of work And it is used to create a template for wordpress using `vue3` and `scss`.
+This collection was created by the [CodeTrend team](https://codetrend.ir/). it is used to create a template for wordpress using `vue3` and `scss`.   
+You can click [here](https://codetrend.ir/) to see a sample of work
 
 ---
 
