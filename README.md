@@ -3,8 +3,6 @@
 This collection was created by the [CodeTrend team](https://codetrend.ir/). it is used to create a template for wordpress using `vue3` and `scss`.   
 You can click [here](https://codetrend.ir/) to see a sample of work
 
----
-
 #### if change folder name after clone. you should open **webpack.mix.js** and config `themeName`
 
 ## Project Setup
@@ -12,13 +10,11 @@ You can click [here](https://codetrend.ir/) to see a sample of work
 $ npm i
 ```
 
-
-
 ## Add Scss file
 >
 > If you need to add the scss file, you should do the following steps
 >
-> -  make file in directory /resource/scss/    for excample `test.scss`
+> -  make file in directory /resource/scss/    for example `test.scss`
 >
 > - open **webpack.mix.js** and add `mix.sass('resources/scss/test.scss', '/assets/css').ourceMaps();`
 >
@@ -35,6 +31,6 @@ $ npm i
 > - for production, you should execute command ` npx mix production`
 >
 ---
-![Tux, the Linux mascot](/screenshot.png)
-<https://codetrend.ir/>
+![https://codetrend.ir](screenshot.png)
+<!-- <https://codetrend.ir/> -->
 ---
