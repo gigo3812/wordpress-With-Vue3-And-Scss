@@ -1,9 +1,9 @@
 let mix = require('laravel-mix');
 // your Wordpress theme name here
-// const themePath = 'wp-content/themes/' + themename + '';
+// const themePath = 'wp-content/themes/' + themeName + '';
 // const resources = themePath + '/resources';
-var themename = "learnWordpress";
-mix.setResourceRoot(`/${themename}/wp-content/themes/learnWprdpress/assets`);
+var themeName = "learnWordpress";
+mix.setResourceRoot(`/${themeName}/wp-content/themes/learnWprdpress/assets`);
 mix.setPublicPath(`assets`);
 
 // main app.js and public.css as style.css
