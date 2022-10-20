@@ -17,7 +17,12 @@
                        <div class="card-post-header">
                            <div class="post-img">
                                <a href="#">
-                                   <img src="<?php echo bloginfo('template_url') . '/assets/img/1.jpg' ?>" alt="news card images" class="img">
+                                   <!-- directive -->
+                                   <div class="images" v-viewer>
+                                       <img src="<?php echo bloginfo('template_url') . '/assets/img/1.jpg' ?>" alt="news card images" class="img">
+                                   </div>
+
+
                                </a>
                            </div>
                            <h4 class="post-title">این یک خبر نمونه می باشد</h4>
@@ -113,7 +118,9 @@
                        <div class="card-post-header">
                            <div class="post-img">
                                <a href="#">
-                                   <img src="<?php echo bloginfo('template_url') . '/assets/img/2.jpg' ?>" alt="news card images" class="img">
+                                   <div class="images" v-viewer>
+                                       <img src="<?php echo bloginfo('template_url') . '/assets/img/2.jpg' ?>" alt="news card images" class="img">
+                                   </div>
                                </a>
                            </div>
                            <h4 class="post-title">این یک خبر نمونه می باشد</h4>
@@ -210,7 +217,9 @@
                        <div class="card-post-header">
                            <div class="post-img">
                                <a href="#">
-                                   <img src="<?php echo bloginfo('template_url') . '/assets/img/3.jpg' ?>" alt="news card images" class="img">
+                                   <div class="images" v-viewer>
+                                       <img src="<?php echo bloginfo('template_url') . '/assets/img/3.jpg' ?>" alt="news card images" class="img">
+                                   </div>
                                </a>
                            </div>
                            <h4 class="post-title">این یک خبر نمونه می باشد</h4>

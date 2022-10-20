@@ -4,7 +4,7 @@ get_header();
 ?>
 
 <section id="app">
- 
+
     <!-- slider -->
     <?php get_template_part('templates/slider'); ?>
 
