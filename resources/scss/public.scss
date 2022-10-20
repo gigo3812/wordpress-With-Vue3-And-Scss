@@ -27,7 +27,7 @@
     outline: 0 !important;
 }
 
-html {
+#app {
     direction: rtl;
 }
 
@@ -263,87 +263,13 @@ input.form-control:focus {
     }
 }
 
-// custom radio button
-[type="radio"]:checked,
-[type="radio"]:not(:checked) {
-    display: none;
-}
-
-[type="radio"]:checked + label,
-[type="radio"]:not(:checked) + label {
-    position: relative;
-    padding-left: 25px;
-    cursor: pointer;
-    display: inline-block;
-    color: #666;
-}
-
-[type="radio"]:checked + label:before,
-[type="radio"]:not(:checked) + label:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #88eeae;
-    border-radius: 100%;
-    background: #fff;
-}
-
-[type="radio"]:checked + label:after,
-[type="radio"]:not(:checked) + label:after {
-    content: "";
-    width: 12px;
-    height: 12px;
-    background: #88eeae;
-    position: absolute;
-    top: 4px;
-    left: 4px;
-    border-radius: 100%;
-    transition: 0.3s linear all;
-}
-
-[type="radio"]:not(:checked) + label:after {
-    opacity: 0;
-    transform: scale(0);
-}
-
-[type="radio"]:checked + label:after {
-    opacity: 1;
-    transform: scale(1);
-}
-
-// notification
-
-.vue-notification-group {
-    width: 320px !important;
-    span {
-        .vue-notification-wrapper {
-            .vue-notification-template.vue-notification {
-                border-radius: 7px;
-                .notification-title {
-                    font-weight: 500;
-                    font-family: "IRANYekan";
-                }
-                .notification-content {
-                    font-weight: 300;
-                    font-family: "IRANYekan";
-                }
-            }
-        }
-    }
-}
-
 // alert box
 .alert-danger {
     font-family: "IRANYEKAN";
 }
-// swal alert style
-.swal2-content {
-    font-weight: 300 !important;
-    font-family: IRANYekan;
-}
-.swal2-container {
-    font-family: IRANYekan;
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
 }

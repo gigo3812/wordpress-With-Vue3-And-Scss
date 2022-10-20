@@ -31,11 +31,9 @@ $ npm i
 > - for production, you should execute command ` npx mix production`
 >
 ---
-![https://codetrend.ir](https://github.com/gigo3812/wordpress-With-Vue3-And-Scss/blob/master/screenshot.png?raw=true)
+![https://codetrend.ir](/screenshot.png)
 
 ![https://codetrend.ir](https://github.com/gigo3812/wordpress-With-Vue3-And-Scss/raw/master/screenshot.png)
-
-
 
 <!-- <https://codetrend.ir/> -->
 ---
