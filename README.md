@@ -31,6 +31,6 @@ $ npm i
 > - for production, you should execute command ` npx mix production`
 >
 ---
-![https://codetrend.ir](screenshot.png)
+![https://codetrend.ir](./screenshot.png)
 <!-- <https://codetrend.ir/> -->
 ---
