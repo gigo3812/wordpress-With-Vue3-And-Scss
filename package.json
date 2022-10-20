@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "For-mix-run-command": "npx mix",
+    "For-watch-run-command": "npx mix watch",
+    "For-production-run-command": "npx mix production"
+  },
+  "devDependencies": {
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^12.1.0",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.7.13"
+  },
+  "dependencies": {
+    "laravel-mix": "^6.0.49",
+    "vue": "^3.2.41"
+  },
+  "name": "learnwprdpress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

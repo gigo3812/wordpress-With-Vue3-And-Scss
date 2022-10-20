@@ -1,0 +1,349 @@
+//** Iran Yekan fonts/
+@font-face {
+    font-family: "IRANYekan";
+    src: url("../../assets/fonts/IRANYekan-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "IRANYekan";
+    src: url("../../assets/fonts/IRANYekan.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "IRANYekan";
+    src: url("../../assets/fonts/IRANYekan-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    outline: 0 !important;
+}
+
+html {
+    direction: rtl;
+}
+
+body {
+    background-color: #f5fdfc;
+    padding: 0;
+}
+
+.img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+h1 {
+    font-size: 35px;
+    color: #3c3c3c;
+    @media (min-width: 1024px) and (max-width: 1366px) {
+        font-size: 30px;
+    }
+    @media (min-width: 768px) and (max-width: 1023.9px) {
+        font-size: 20px;
+    }
+    @media (max-width: 767.9px) {
+        font-size: 15px;
+    }
+}
+
+h2 {
+    font-size: 30px;
+    @media (min-width: 1024px) and (max-width: 1366px) {
+        font-size: 25px;
+    }
+    @media (min-width: 768px) and (max-width: 1023.9px) {
+        font-size: 20px;
+    }
+    @media (max-width: 767.9px) {
+        font-size: 15px;
+    }
+}
+
+h3 {
+    font-size: 25px;
+    @media (min-width: 992px) and (max-width: 1366px) {
+        font-size: 20px;
+    }
+    @media (max-width: 991.9px) {
+        font-size: 20px;
+    }
+}
+
+h4 {
+    font-size: 20px;
+    @media (min-width: 1024px) and (max-width: 1366px) {
+        font-size: 15px;
+    }
+    @media (max-width: 1023.9px) {
+        font-size: 10px;
+    }
+}
+
+h5 {
+    font-size: 10px;
+    @media (max-width: 767.9px) {
+        font-size: 8px;
+    }
+}
+
+h6 {
+    font-size: 8px;
+    @media (max-width: 767.9px) {
+        font-size: 6px;
+    }
+}
+
+span {
+    font-size: 15px;
+    @media (max-width: 1366px) {
+        font-size: 13px;
+    }
+}
+
+::selection {
+    background: #87cec0;
+    color: rgb(255, 255, 255);
+}
+
+::placeholder {
+    color: #d2d2d2 !important;
+    font-size: 13px !important;
+    font-family: "IRANYekan" !important;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+    color: #3c3c3c;
+    @media (min-width: 768px) and (max-width: 1366px) {
+        font-size: 15px;
+    }
+    @media (max-width: 767.9px) {
+        font-size: 13px;
+    }
+}
+
+input.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(148, 234, 226, 25%) !important;
+}
+
+//** btn info custom styles*/
+.btn-container {
+    padding: 3px;
+    border-right: 1.2px solid #00ac99;
+    border-bottom: 1.2px solid #00ac99;
+    width: fit-content;
+    position: relative;
+    font-family: "IRANYEKAN";
+    &:hover {
+        border-right: 1.2px solid #8effe8 !important;
+        border-bottom: 1.2px solid #8effe8 !important;
+        ::after,
+        ::before {
+            background: #8effe8 !important;
+        }
+    }
+    ::after {
+        content: "";
+        height: 1px;
+        width: 5px;
+        background: #00ac99;
+        position: absolute;
+        top: 100%;
+        right: -4%;
+        border: none;
+    }
+    ::before {
+        content: "";
+        height: 5px;
+        width: 1px;
+        position: absolute;
+        top: 100%;
+        right: -1%;
+        background: #00ac99;
+        border: none;
+    }
+    .btn-info {
+        cursor: pointer;
+        background: #0ec9a3;
+        color: #fff;
+        box-shadow: 0px 3px 6px #10ee8e54;
+        border: none;
+        transition: 0.3s ease-in-out all;
+        &:hover {
+            box-shadow: 0px 3px 6px #10ee8e23;
+            background: #ebfffb;
+            color: #0ec9a3 !important;
+            transition: 0.3s ease-in-out all;
+        }
+    }
+}
+
+//** btn success custom styles*/
+.btn-success {
+    background: #0ec9a3;
+    border-radius: 5px;
+    color: #ffff;
+    border: none;
+    text-align: center;
+    transition: 0.3s linear all;
+    &:hover {
+        transition: 0.3s linear all;
+        color: #0ec9a3;
+        background: #e8fffa;
+        border: 1px solid #0ec9a3;
+    }
+}
+
+//** btn primary custom style*/
+.btn-primary {
+    background: #def8ff !important;
+    border-radius: 5px;
+    height: 40px;
+    padding: 7px 15px;
+    text-align: center;
+    color: #0384a3;
+    font-size: 15px;
+    border: none;
+    transition: 0.3s linear all;
+    &:hover {
+        transition: 0.3s linear all;
+        background: #13a2c5 !important;
+        color: #def8ff;
+        border: 1.2px solid #def8ff;
+    }
+    &:active {
+        color: #0384a3;
+    }
+    &:focus {
+        box-shadow: 0 0 0 0.25rem rgba(130, 220, 255, 0.4) !important;
+        color: #0384a3;
+    }
+}
+
+// bar animate
+.bar-animate-container {
+    width: 400px;
+    height: 8px;
+    background: #8fdfdcdc;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto;
+    .bar-animate {
+        width: 8px;
+        height: 8px;
+        border-radius: 50px;
+        position: absolute;
+        top: 0;
+        right: 0%;
+        background: #fff;
+        animation: move-bar 10s ease-in -1s infinite;
+        @keyframes move-bar {
+            0% {
+                right: 0%;
+            }
+            100% {
+                right: 100%;
+            }
+        }
+    }
+    @media (max-width: 992px) {
+        width: 70% !important;
+    }
+}
+
+// custom radio button
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    display: none;
+}
+
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    display: inline-block;
+    color: #666;
+}
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #88eeae;
+    border-radius: 100%;
+    background: #fff;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #88eeae;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    transition: 0.3s linear all;
+}
+
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+// notification
+
+.vue-notification-group {
+    width: 320px !important;
+    span {
+        .vue-notification-wrapper {
+            .vue-notification-template.vue-notification {
+                border-radius: 7px;
+                .notification-title {
+                    font-weight: 500;
+                    font-family: "IRANYekan";
+                }
+                .notification-content {
+                    font-weight: 300;
+                    font-family: "IRANYekan";
+                }
+            }
+        }
+    }
+}
+
+// alert box
+.alert-danger {
+    font-family: "IRANYEKAN";
+}
+// swal alert style
+.swal2-content {
+    font-weight: 300 !important;
+    font-family: IRANYekan;
+}
+.swal2-container {
+    font-family: IRANYekan;
+}

@@ -1,0 +1,80 @@
+
+section.news-article {
+    font-family: "IRANYekan";
+  }
+  section.news-article .news-article-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(21, 127, 234, 0.3);
+    padding: 25px 20px;
+    position: relative;
+  }
+  section.news-article .news-article-card .border-top-left {
+    top: -5px;
+    left: -5px;
+  }
+  section.news-article .news-article-card .border-bottom-right {
+    bottom: -5px;
+    right: -5px;
+  }
+  section.news-article .news-article-card .border-top-left,
+  section.news-article .news-article-card .border-bottom-right {
+    position: absolute;
+    background: #dbeefe;
+    border-radius: 15px;
+    width: 50%;
+    height: 50%;
+    z-index: -1;
+  }
+  section.news-article .news-article-card .card-post-header {
+    text-align: center;
+  }
+  section.news-article .news-article-card .card-post-header .post-img {
+    width: 100%;
+    height: 275px !important;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow: hidden;
+  }
+  section.news-article .news-article-card .card-post-header .post-img:hover img {
+    transition: 0.3s linear all;
+    transform: scale(1.2) rotate(1deg);
+  }
+  section.news-article .news-article-card .card-post-header .post-img img {
+    transition: 0.3s linear all;
+  }
+  section.news-article .news-article-card .card-post-header .post-title {
+    margin: 35px 0 0 0;
+    height: 54px;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  section.news-article .news-article-card .card-post-main .post-detail {
+    margin: 8px 0;
+  }
+  section.news-article .news-article-card .card-post-main .post-detail h5 {
+    color: #024ea3;
+    margin: 0 5px;
+  }
+  section.news-article .news-article-card .card-post-main .post-text {
+    margin: 10px 0;
+  }
+  section.news-article .news-article-card .card-post-main .post-text span {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    line-height: 2;
+    text-align: justify !important;
+  }
+  section.news-article .news-article-card .card-post-footer {
+    margin: 5px 0;
+  }
+  section.news-article .news-article-card .card-post-footer .btn-info-see-news {
+    width: 125px;
+    height: 40px;
+    font-size: 10px;
+  }
