@@ -1,10 +1,10 @@
 
 # Dev Tips 
-This collection was created by the [CodeTrend team](https://codetrend.ir/). You can click [here](https://codetrend.ir/) to see a sample of work
+This collection was created by the [CodeTrend team](https://codetrend.ir/). You can click [here](https://codetrend.ir/) to see a sample of work And it is used to create a template for wordpress using `vue3` and `scss`.
 
 ---
 
-#### <span style="color:dodgerblue">if change folder name after clone. you should open **webpack.mix.js** and config `themeName` <span>
+#### if change folder name after clone. you should open **webpack.mix.js** and config `themeName`
 
 ## Project Setup
 ```
